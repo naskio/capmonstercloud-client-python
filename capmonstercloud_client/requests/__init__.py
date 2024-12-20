@@ -14,6 +14,7 @@ from .GeetestRequest import GeetestRequest
 from .TurnstileProxylessRequest import TurnstileProxylessRequest
 from .TurnstileRequest import TurnstileRequest
 from .HcaptchaComplexImageTask import HcaptchaComplexImageTaskRequest
+from .RecognitionComplexImageTask import RecognitionComplexImageTaskRequest
 from .RecaptchaComplexImageTask import RecaptchaComplexImageTaskRequest
 from .baseRequest import BaseRequest
 from .DataDomeCustomTaskRequest import DataDomeCustomTaskRequest
