@@ -19,7 +19,7 @@ class HcaptchaComplexImageTaskRequest(ComplexImageTaskRequestBase):
             return value
     
     @validator('exampleImageUrls')
-    def validate_urls_array(cls, value):
+    def validate_example_urls_array(cls, value):
         if value is not None:
             if not isinstance(value, (list, tuple)):
                 raise TypeError(f'Expect that type exampleImageUrls array will be <list> or <tuple>, got {type(value)}')
@@ -34,7 +34,7 @@ class HcaptchaComplexImageTaskRequest(ComplexImageTaskRequestBase):
         return value
     
     @validator('exampleImagesBase64')
-    def validate_urls_array(cls, value):
+    def validate_example_images_array(cls, value):
         if value is not None:
             if not isinstance(value, (list, tuple)):
                 raise TypeError(f'Expect that type exampleImagesBase64 array will be <list> or <tuple>, got {type(value)}')
