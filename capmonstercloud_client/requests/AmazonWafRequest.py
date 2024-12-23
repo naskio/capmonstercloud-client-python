@@ -1,6 +1,4 @@
 from typing import Dict, Union
-from pydantic import Field, validator
-
 from .proxy_info import ProxyInfo
 from .AmazonWafRequestBase import AmazonWafRequestBase
 

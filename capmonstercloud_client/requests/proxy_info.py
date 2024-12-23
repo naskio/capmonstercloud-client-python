@@ -1,4 +1,4 @@
-from pydantic import BaseModel, validator
+from pydantic import BaseModel, field_validator as validator
 from .enums import ProxyTypes
 
 class ProxyInfo(BaseModel):

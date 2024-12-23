@@ -1,6 +1,6 @@
 import base64
 
-from pydantic import validator, Field, BaseModel
+from pydantic import field_validator as validator, Field, BaseModel
 from typing import Optional, Dict, Union
 from .baseRequest import BaseRequest
 from .enums import TextModules

@@ -1,6 +1,4 @@
 from typing import Dict, Union
-from pydantic import Field, validator
-
 from .BasiliskCustomTaskRequestBase import BasiliskCustomTaskRequestBase
 
 class BasiliskCustomTaskProxylessRequest(BasiliskCustomTaskRequestBase):

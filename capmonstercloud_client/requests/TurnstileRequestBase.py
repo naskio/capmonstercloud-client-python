@@ -1,6 +1,6 @@
 from .baseRequest import BaseRequest, Field
 from typing import Optional
-from pydantic import validator, model_validator
+from pydantic import field_validator as validator, model_validator
 
 
 class TurnstileRequestBase(BaseRequest):

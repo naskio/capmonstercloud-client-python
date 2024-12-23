@@ -1,5 +1,5 @@
 from typing import Optional, Union, Dict
-from pydantic import Field, validator
+from pydantic import Field, field_validator as validator
 from .baseRequest import BaseRequest
 
 

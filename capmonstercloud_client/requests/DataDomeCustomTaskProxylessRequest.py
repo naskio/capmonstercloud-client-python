@@ -1,5 +1,5 @@
 from typing import Dict, Union
-from pydantic import Field, validator
+from pydantic import Field, field_validator as validator
 
 from .DataDomeCustomTaskRequestBase import DataDomeCustomTaskRequestBase
 

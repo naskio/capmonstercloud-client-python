@@ -2,7 +2,7 @@ import unittest
 import asyncio
 import os
 
-from pydantic.error_wrappers import ValidationError
+from pydantic import ValidationError
 from capmonstercloudclient.requests import DataDomeCustomTaskProxylessRequest
 from capmonstercloudclient import CapMonsterClient, ClientOptions
 

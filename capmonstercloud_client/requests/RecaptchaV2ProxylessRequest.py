@@ -1,4 +1,4 @@
-from pydantic import Field, validator
+from pydantic import Field, field_validator as validator
 from typing import Dict
 from .RecaptchaV2RequestBase import RecaptchaV2RequestBase
 
